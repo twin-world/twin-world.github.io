@@ -1,42 +1,58 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TwinWorld Workshop | ECCV 2026</title>
+<title>TwinWorld | ECCV 2026</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <nav class="navbar">
-<div class="container">
+
 <div class="logo">
-TwinWorld @ ECCV 2026
+TwinWorld
 </div>
 
 <ul>
+
 <li><a href="#about">About</a></li>
 <li><a href="#topics">Topics</a></li>
 <li><a href="#speakers">Speakers</a></li>
 <li><a href="#challenge">Challenges</a></li>
 <li><a href="#schedule">Schedule</a></li>
 <li><a href="#organizers">Organizers</a></li>
+
 </ul>
-</div>
+
 </nav>
 
 <header class="hero">
 
+<video autoplay muted loop playsinline class="hero-video">
+
+<source
+src="assets/videos/teaser.mp4"
+type="video/mp4">
+
+</video>
+
+<div class="hero-overlay"></div>
+
 <div class="hero-content">
 
-<p class="eccv">ECCV 2026 Workshop</p>
+<p class="eccv">
+ECCV 2026 Workshop
+</p>
 
 <h1>
 TwinWorld
@@ -46,13 +62,22 @@ TwinWorld
 Visual Intelligence for Built Environment Digital Twins
 </h2>
 
-<p>
+<p class="subtitle">
+
 Scalable • Multimodal • Hierarchical • Dynamic
+
 </p>
 
-<div class="buttons">
-<a href="#cfp" class="btn-primary">Call for Papers</a>
-<a href="#challenge" class="btn-secondary">Challenges</a>
+<div class="hero-buttons">
+
+<a href="#about" class="btn-primary">
+Learn More
+</a>
+
+<a href="#challenge" class="btn-secondary">
+Challenges
+</a>
+
 </div>
 
 </div>
@@ -60,15 +85,19 @@ Scalable • Multimodal • Hierarchical • Dynamic
 </header>
 
 <section id="about">
+
 <div class="container">
 
 <h2>About</h2>
 
 <p>
-TwinWorld brings together researchers and practitioners working at the intersection of computer vision, robotics, geospatial AI, autonomous systems, and construction technology. The workshop aims to advance scalable digital twins through multimodal 3D and 4D scene understanding, semantic modeling, neural representations, and benchmark-driven evaluation.
+TwinWorld brings together researchers and practitioners from computer vision,
+robotics, geospatial AI, autonomous systems, and construction technology
+to advance the next generation of built environment digital twins.
 </p>
 
 </div>
+
 </section>
 
 <section id="topics">
@@ -77,14 +106,14 @@ TwinWorld brings together researchers and practitioners working at the intersect
 
 <h2>Topics</h2>
 
-<div class="card-grid">
+<div class="grid">
 
-<div class="card">3D / 4D Reconstruction</div>
-<div class="card">Urban Digital Twins</div>
-<div class="card">Semantic Scene Understanding</div>
+<div class="card">3D Reconstruction</div>
+<div class="card">4D Scene Understanding</div>
+<div class="card">Digital Twins</div>
 <div class="card">Gaussian Splatting</div>
-<div class="card">Neural Scene Representations</div>
-<div class="card">Benchmarking & Evaluation</div>
+<div class="card">Neural Fields</div>
+<div class="card">Semantic Modeling</div>
 <div class="card">Autonomous Driving</div>
 <div class="card">Construction Monitoring</div>
 
@@ -103,15 +132,27 @@ TwinWorld brings together researchers and practitioners working at the intersect
 <div class="speaker-grid">
 
 <div class="speaker-card">
-<img src="assets/speakers/busam.jpg">
+
+<img src="assets/speakers/benjamin_busam.jpg">
+
 <h3>Benjamin Busam</h3>
-<p>Technical University of Munich</p>
+
+<p>
+Technical University of Munich
+</p>
+
 </div>
 
 <div class="speaker-card">
-<img src="assets/speakers/sheil.jpg">
+
+<img src="assets/speakers/brian_sheil.jpg">
+
 <h3>Brian Sheil</h3>
-<p>University of Cambridge</p>
+
+<p>
+University of Cambridge
+</p>
+
 </div>
 
 </div>
@@ -126,26 +167,34 @@ TwinWorld brings together researchers and practitioners working at the intersect
 
 <h2>Workshop Challenges</h2>
 
-<div class="challenge-grid">
+<div class="grid">
 
 <div class="challenge-card">
+
 <h3>Challenge I</h3>
-<h4>Large-Scale Hierarchical Facade Segmentation</h4>
+
+<h4>
+Hierarchical Facade Segmentation
+</h4>
 
 <p>
-ZAHA benchmark dataset.
-Hierarchical semantics from facade level to architectural elements.
+ZAHA benchmark dataset
 </p>
+
 </div>
 
 <div class="challenge-card">
+
 <h3>Challenge II</h3>
-<h4>Large-Scale Semantic Gaussian Splatting</h4>
+
+<h4>
+Semantic Gaussian Splatting
+</h4>
 
 <p>
-TUM2TWIN benchmark dataset.
-Joint optimization of geometry, semantics, and completeness.
+TUM2TWIN benchmark dataset
 </p>
+
 </div>
 
 </div>
@@ -162,16 +211,75 @@ Joint optimization of geometry, semantics, and completeness.
 
 <div class="timeline">
 
-<div>09:00 — Welcome</div>
-<div>09:15 — Keynote</div>
-<div>10:15 — Spotlight Papers</div>
-<div>11:05 — Challenge I</div>
-<div>11:35 — Poster Session</div>
-<div>13:15 — Industry Session</div>
-<div>14:15 — Spotlight Papers</div>
-<div>15:20 — Challenge II</div>
-<div>15:50 — Vision Talk</div>
-<div>16:15 — Panel Discussion</div>
+<div class="event">
+<div class="time">09:00</div>
+<div class="event-content">
+<h3>Welcome</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">09:15</div>
+<div class="event-content">
+<h3>Keynote</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">10:15</div>
+<div class="event-content">
+<h3>Spotlight Papers</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">11:05</div>
+<div class="event-content">
+<h3>Challenge I</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">11:35</div>
+<div class="event-content">
+<h3>Poster Session</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">13:15</div>
+<div class="event-content">
+<h3>Industry Session</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">14:15</div>
+<div class="event-content">
+<h3>Spotlight Papers</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">15:20</div>
+<div class="event-content">
+<h3>Challenge II</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">15:50</div>
+<div class="event-content">
+<h3>Vision Talk</h3>
+</div>
+</div>
+
+<div class="event">
+<div class="time">16:15</div>
+<div class="event-content">
+<h3>Panel Discussion</h3>
+</div>
+</div>
 
 </div>
 
@@ -185,17 +293,17 @@ Joint optimization of geometry, semantics, and completeness.
 
 <h2>Organizers</h2>
 
-<div class="organizer-grid">
+<div class="grid">
 
-<div>Olaf Wysocki (Cambridge)</div>
-<div>Yan Xia (USTC)</div>
-<div>Elliott Wu (Cambridge)</div>
-<div>Francesca Matrone (PoliTo)</div>
-<div>Jiaqi Ma (UCLA)</div>
-<div>Clément Mallet (IGN)</div>
-<div>Fabio Remondino (FBK)</div>
-<div>Konrad Schindler (ETH)</div>
-<div>Daniel Cremers (TUM)</div>
+<div class="card">Olaf Wysocki</div>
+<div class="card">Yan Xia</div>
+<div class="card">Elliott Wu</div>
+<div class="card">Francesca Matrone</div>
+<div class="card">Jiaqi Ma</div>
+<div class="card">Clément Mallet</div>
+<div class="card">Fabio Remondino</div>
+<div class="card">Konrad Schindler</div>
+<div class="card">Daniel Cremers</div>
 
 </div>
 
@@ -205,9 +313,7 @@ Joint optimization of geometry, semantics, and completeness.
 
 <footer>
 
-<p>
 TwinWorld Workshop @ ECCV 2026
-</p>
 
 </footer>
 

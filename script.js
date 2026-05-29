@@ -1,15 +1,12 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+window.addEventListener('scroll', () => {
 
-anchor.addEventListener('click', function(e){
+const nav = document.querySelector('.navbar');
 
-e.preventDefault();
-
-document.querySelector(
-this.getAttribute('href')
-).scrollIntoView({
-behavior:'smooth'
-});
-
-});
+if(window.scrollY > 100){
+    nav.style.background = "rgba(8,21,34,.85)";
+}
+else{
+    nav.style.background = "rgba(8,21,34,.4)";
+}
 
 });
