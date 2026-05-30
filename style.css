@@ -542,3 +542,25 @@ font-weight:600;
 border:1px solid rgba(142,232,216,.2);
 
 }
+
+.dates-placeholder{
+
+margin:25px 0;
+
+padding:20px;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.03);
+
+border:1px solid rgba(142,232,216,.1);
+
+}
+
+.dates-placeholder div{
+
+padding:8px 0;
+
+opacity:.9;
+
+}
