@@ -394,3 +394,57 @@ display:none;
 }
 
 }
+
+#motivation p{
+
+max-width:1000px;
+
+margin-bottom:24px;
+
+font-size:1.05rem;
+
+line-height:1.8;
+
+}
+
+.motivation-grid{
+
+margin-top:50px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:24px;
+
+}
+
+.motivation-card{
+
+background:rgba(255,255,255,.04);
+
+border:1px solid rgba(142,232,216,.15);
+
+border-radius:20px;
+
+padding:24px;
+
+backdrop-filter:blur(15px);
+
+transition:.3s;
+
+}
+
+.motivation-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.motivation-card h3{
+
+color:var(--cambridge-blue);
+
+margin-bottom:12px;
+
+}
