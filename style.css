@@ -198,17 +198,19 @@ gap:20px;
 
 display:inline-block;
 
-margin-top:20px;
-
-background:var(--cambridge-warm);
+width:auto;
 
 padding:16px 32px;
 
 border-radius:14px;
 
-text-decoration:none;
+background:var(--cambridge-warm);
 
 color:white;
+
+text-decoration:none;
+
+font-weight:600;
 
 }
 
