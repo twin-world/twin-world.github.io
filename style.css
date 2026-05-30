@@ -740,3 +740,27 @@ text-decoration:none;
 text-decoration:underline;
 
 }
+
+.logo{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+font-size:1.3rem;
+
+font-weight:800;
+
+color:var(--cambridge-blue);
+
+}
+
+.logo img{
+
+height:42px;
+
+width:auto;
+
+}
