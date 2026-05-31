@@ -79,11 +79,27 @@ font-weight:500;
 
 .logo{
 
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
 font-size:1.3rem;
 
 font-weight:800;
 
 color:var(--cambridge-blue);
+
+text-decoration:none;
+
+transition:.2s;
+
+}
+
+.logo:hover{
+
+opacity:.85;
 
 }
 
@@ -773,4 +789,8 @@ height:auto;
 
 margin-bottom:15px;
 
+}
+
+html{
+    scroll-behavior:smooth;
 }
