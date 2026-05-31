@@ -429,9 +429,21 @@ font-size:1.4rem;
 
 }
 
-.navbar ul{
+.navbar ul a{
 
-display:none;
+color:rgba(142,232,216,.85);
+
+text-decoration:none;
+
+font-weight:500;
+
+transition:.2s;
+
+}
+
+.navbar ul a:hover{
+
+color:var(--cambridge-blue);
 
 }
 
